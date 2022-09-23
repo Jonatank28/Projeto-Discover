@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+@import url('./index.css');
+@import url('./sistemaNotasEscolares.css');
+
+:root{
+  --background: #181818;
+  --decoration: #8758FF;
+  --card: #5CB8E4;
+  --textColor: #1e1a1a;
+  --textColorCard: #52585b;
+  --textWhite: rgb(228, 225, 225);
+  --button: rgb(148, 114, 34);
+  font-family: 'Lato', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  background-color: var(--background);
+}
