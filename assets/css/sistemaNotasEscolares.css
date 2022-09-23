@@ -15,7 +15,7 @@
 .containerNota >h1{
   color: var(--textWhite);
   padding-bottom: 20px;
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 .calcular button{
   width: 100%;
@@ -24,9 +24,11 @@
   font-size: 1rem;
   padding: 10px;
   border-radius: 5px;
+  cursor: pointer;
 }
 .calcular{
   display: flex;
+  position: relative;
 }
 .voltar{
   margin-top: 20px;
@@ -34,14 +36,48 @@
 .voltar a:hover{
   color: grey;
 }
+.novo a:hover{
+  color: grey;
+}
 .voltar a{
   color: var(--textWhite);
 }
-.calcular{
-  position: relative;
+.novo a{
+  color: var(--textWhite);
+}
+.novo{
+  display: none;
+  width: 100%;
+  background-color: var(--button);
+  color: var(--textWhite);
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+
 }
 .calcular img{
   position: absolute;
   left: 70px;
   top: 7px;
+  cursor: pointer;
+}
+.esconder{
+  display: none;
+}
+.p{
+  margin: 30px;
+}
+.aprovado{
+  background-color: green;
+  border-radius: 5px;
+  padding: 10px;
+}
+.reprovado{
+  background-color: red;
+  border-radius: 5px;
+  padding: 10px;
+}
+.p1{
+  margin-top: 20px;
+  font-size: 14px;
 }
